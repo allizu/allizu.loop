@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factorial, Sum, and Average</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Factorial, Sum, and Average of First N Natural Numbers</h1>
+
+    <div class="form-group">
+      <label for="number">Enter a number (N):</label>
+      <input type="number" id="number" placeholder="Enter a number" required>
+    </div>
+
+    <button onclick="calculateResults()" class="calculate-button">Calculate</button>
+
+    <div id="results" class="results"></div>
+
+    <h2>Formulas Used</h2>
+    <ul class="formulas">
+      <li><strong>Factorial:</strong> N! = N × (N-1) × (N-2) × ... × 1</li>
+      <li><strong>Sum:</strong> Sum = 1 + 2 + 3 + ... + N</li>
+      <li><strong>Average:</strong> Average = Sum / N</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
